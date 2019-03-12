@@ -12,6 +12,8 @@ require(
         		console.log("the target's ID is " + ev.target.id);
 
         		ev.target.innerHTML = "The mouse's offset X was " + ev.offsetX + /* we need to finish defining this bad baby */ 
+
+                        
         	})
 
         }
