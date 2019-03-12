@@ -6,15 +6,15 @@ require(
 
         	var colorbox = document.getElementById("colorDisplay");
 
-        	colorbox.addEventListener("mousedown", function(ev){ /* which bit here is the callback function ?? */
+        	colorbox.addEventListener("mousedown", function(ev){ 
         		console.log("okay, got a mousedown event");
         		console.log("the target is " + ev.target);
         		console.log("the target's ID is " + ev.target.id);
 
-        		ev.target.innerHTML = "The mouse's offset X was " + ev.offsetX + /* we need to finish defining this bad baby */ 
+        		ev.target.innerHTML = "The mouse's offset X was " + ev.offsetX + " and the offset Y was " + ev.offsetY ; 
 
-                        
-        	})
+                        })
+        	
 
         }
 
